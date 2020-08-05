@@ -1,0 +1,390 @@
+
+*{
+  margin:0;
+  padding:0;
+}
+
+html {
+  scroll-behavior: smooth; /*navegação suave entre seções*/
+}
+
+/*-- Início do header --*/
+  .background-header {
+    background-image: url("img/header/bambi.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: static;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 7;
+    margin-bottom: 5%;
+  }
+
+  .H1tit {
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 250px;
+
+  }
+
+  .subt {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 0;
+  }
+
+  #linhadiv {
+    height: 10px;
+    background-color: #93bf85;
+    z-index: 6;
+  }
+/*-----------------------------*/
+
+/*--menu do topo--*/
+.caixa-menu {
+  position: absolute;
+  margin: 25px;
+  width: auto;
+}
+
+.menu-topo {
+  overflow: hidden;
+  background-color: #f5f5f5;
+}
+
+  .menu-topo a {
+  float: left;
+  color: #4CAF50;
+  text-align: center;
+  padding: 20px 18px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+  .menu-topo a:hover {
+  background-color: #2b961f;
+  color: #ffffff;
+}
+
+/*-----------------------------*/
+
+/*padrões pré-definidos*/
+
+p {
+  margin-left: 60px;
+  margin-top: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+.H2tit {
+  font-size: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+  margin-left: 60px;
+  margin-right: 10px;
+}
+
+.H3tit {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.sob-cor-section {
+  background-color: rgba(50, 50, 50, 0.4); 
+  min-height: 100%;
+}
+
+.botao {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  padding: 20px 50px 20px 50px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.section-img {
+  background-attachment: fixed;
+  background-size: cover;
+  height: 500px;
+  margin-top: 5%;
+}
+
+/*----------------------*//*----------------------*//*----------------------*//*----------------------*/
+/*-- Página Home-- */
+/* -- Primeira seção: A vida terrestre hoje -- */
+  #first-section {
+    padding: 20px;
+    position: relative;
+    float: left;
+    height: 600px;
+  }
+
+  .texto-anexo-imagem-1 {
+    float: left;
+    position: relative;
+    width: 50%;
+  }
+
+  #texto-anexo-imagem-1 {margin-top: 5%;}
+  #bird-img {
+    width: 100%;
+  }
+
+  #botao-green {
+    background-color: #4CAF50;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+      #botao-green:hover {
+        background-color: #ffffff;
+        border: #4CAF50 solid 1px;
+        color: #4CAF50;
+      }
+
+/*-------------------------*/
+/* -- Div: Imagem de fundo 1 -- */
+  #section-img-1 { background-image: url("img/girafa-div-1.jpg");
+  float: left;
+  width: 100%;
+  }
+
+  #tit-cont-1 {
+  text-align: center;
+  font-size: 50px;
+  color: #ffffff;
+  padding-top: 15%;
+  }
+
+/*--------------------*/
+/* -- Segunda seção: vidas que correm riscos -- */
+  #segunda-section {
+    padding: 20px;
+    position: relative;
+    float: left;
+    height: 600px;
+    margin: 8% 0 0% 0;
+  }
+
+  .texto-anexo-imagem-2 {
+    float: left;
+    width: 46%;
+    position: relative;
+  }
+
+  #img-cont2 {
+   width: 80%;
+   float: left;
+   margin-right: 5%;
+  }
+
+  #cont2 {
+    margin-right: 5%;
+    text-align: right;
+  }
+
+  #botao-marrom {
+    background-color: #ac6730;
+    float: right;
+    margin-top: 5%;
+    margin-right: 3%;
+  }
+      #botao-marrom:hover {
+        background-color: #ffffff;
+        border: #ac6730 solid 1px;
+        color: #ac6730;
+      }
+/*----------------------*/
+/* -- Div: imagem de fundo 2 -- */
+  #cont-img-2 { background-image: url("img/girafa-div-2.jpg");
+    float: left;
+    width: 100%;
+  }
+
+  #tit-cont-2 {
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+    padding-top: 12%;
+  }
+
+/*----------------------*/
+/* -- Seção: Mais sobre o autor -- */
+  #terceira-section {
+    float: left;
+    padding: 20px 0 20px 0;
+    background-color: #f5f5f5;
+    padding-bottom: 5%;
+  }
+  .coluna-sobre {
+    float: left;
+    width: 30%;
+    text-align: justify;
+    position: relative;
+    margin: 5% 0% 0 0;
+  }
+/*----------------------*//*----------------------*//*----------------------*//*----------------------*/
+/* -- rodapé -- */
+  #rodape {
+    float: left;
+    width: 100%;
+    background-color: #284920;
+    padding-top: 2%;
+    margin-top: 5%;
+  }
+
+  .divs-footer-social-icons {
+    float: right;
+    width: 20%;
+    margin-left: 5%;
+  }
+
+  #txt-footer {
+    color: #93bf85;
+    font-weight: lighter;
+    margin: 5% 0 4% 4%;
+    text-align: center;
+  }
+  .social-icons {
+    height: 10%;
+    margin-top: 35%;
+  }
+      .social-icons:hover {
+        background-color: #c3dcba;
+      }
+
+  .botao-rodape {
+    font-size: 25px;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    margin: 0 1% 0 5%;
+  }
+      .botao-rodape:hover{
+        color: #93bf85;
+      }
+
+  .links-rodape {
+    color: #f5f5f5;
+    text-decoration: none;
+  }
+      .links-rodape:hover {
+        color: #4CAF50;
+      }
+/*----------------------*//*----------------------*//*----------------------*//*----------------------*/
+
+.background-header-next-page {
+  background-image: url("img/header/team.jpg");
+  background-size: cover;
+  height: 90%;
+  background-position: center;
+}
+/*----------------------*/
+/* Primeira seção da página Saiba mais */
+#first-section-page-two {
+  padding: 20px;
+  position: relative;
+  float: left;
+  height: 600px;
+  margin: 5% 0 15% 0;
+}
+
+.texto-anexo-imagem-page-two {
+  float: left;
+  position: relative;
+  width: 50%;
+}
+.bee-img {
+  height: 80%;
+  margin-left: 20%;
+  margin-top: 8%;
+}
+/*----------------------*/
+/* Segunda seção da página Saiba mais */
+#segunda-section-page-two {
+  height: 700px;
+}
+
+/*----------------------*/
+/* Seção do meio da página Saiba mais */
+#do-meio-section-page-two {
+  position: relative;
+  float: left;
+  height: 500px;
+  padding: 5% 5% 5% 0;
+  margin-bottom: 5%;
+  background-color: #f5f5f5;
+}
+.conteudo-meio-da-pagina {
+  position: relative;
+  float: left;
+  width: 50%;
+}
+
+/*----------------------*//*----------------------*//*----------------------*//*----------------------*/
+/* -- Página 3 -- */
+  .background-header-design-page {
+    background-image: url("img/header/design-e-natureza.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 90%;
+  }
+
+  #segunda-section-page-design {
+    background-image: url("img/background-autor.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 80%;
+    float: left;
+  }
+
+  #sobre-autor-section {
+    color: #ffffff;
+    height: 60%;
+    float: left;
+    padding: 7% 0 10% 0;
+    margin: 0% 5% 5% 5%;
+  }
+
+  #foto-perfil {
+    height: 40%;
+    border-radius: 80px;
+    margin-left: 5%;
+    float: left;
+  }
+
+  #nome {
+    float: left;
+    margin-bottom: 5%;
+    font-size: 40px;
+  }
+
+/*----------------------*//*----------------------*//*----------------------*//*----------------------*/
+
+@media all and (max-width: 800px) {
+/* Página Home*/
+  .texto-anexo-imagem-1, .texto-anexo-imagem-2, .section-img {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    float: none;
+  }
+  
+  
+
+}
