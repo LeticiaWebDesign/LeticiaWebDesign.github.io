@@ -224,7 +224,7 @@ p {
     position: relative;
     float: left;
     height: auto;
-    margin-top: 100%;
+    margin-top: 50%;
   }
 
   .texto-anexo-imagem-1 {
@@ -554,6 +554,7 @@ p {
     height: auto;
     top: 50%;
     margin-bottom: 150%;
+    margin-top: 100%;
   }
   #cont-img-2 {height: auto; width: 100%;}
   #segunda-section {height: auto;}
